@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lavagna</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+
+    <link rel="stylesheet" href="css/lavagna.css">
+
+  </head>
+  <body>
+    <div class="section hero">
+      <nav class="navbar">
+        <div class="container">
+          <ul class="navbar-list">
+            <li><a href="documentation/">Documentation</a>
+            <li><a href="https://github.com/digitalfondue/lavagna">Github</a>
+          </ul>
+        </div>
+      </nav>
+      <div id="top-header">
+        <div class="container">
+          <div class="row">
+            <div class="one-half column">
+              <h1 class="hero-heading">Lavagna is an open-source agile project management tool designed for small team. Lightweight, pure java, easy to install and use.</h1>
+              <a class="button download-button" href="#download">Download latest release: 1.0-M1</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container main-content">
+      <h2>About</h2>
+      TBD
+      <h2>Features</h2>
+      TBD HERE SCREENSHOTS
+      <h2>Requirements</h2>
+      Lavagna require at least java 7 and a database: MySQL (v5.1 or later) or PostgreSQL. If you really don't want to use them, you can use his embedded HSQL database, but it's not recommended for production use.
+      <h2>Download</h2>
+      <div>Executable WAR with embedded jetty: </div>
+      <div>WAR to be deployed in your servlet container: </div>
+    </div>
+    
+    <script src="js/geopattern.min.js"></script>
+    <script>
+    var pattern = GeoPattern.generate(new Date().toString(), {color:'#607D8B'});
+    document.getElementById('top-header').style.backgroundImage = pattern.toDataUrl();
+    </script>
+  </body>
+</html>

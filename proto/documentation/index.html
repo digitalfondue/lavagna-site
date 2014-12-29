@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lavagna</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+
+    <link rel="stylesheet" href="../css/lavagna.css">
+
+  </head>
+  <body>
+    <div class="section hero">
+      <nav class="navbar">
+        <div class="container">
+          <ul class="navbar-list">
+            <li><a href="../">Home</a>
+            <li><a href="https://github.com/digitalfondue/lavagna">Github</a>
+          </ul>
+        </div>
+      </nav>
+      <div id="top-header">
+        <div class="container documentation-header">
+          <div class="row">
+            <div class="one-half column">
+              <h1 class="hero-heading">Lavagna documenation</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container main-content">
+      <h2>Here doc</h2>
+    </div>
+    
+    <script src="../js/geopattern.min.js"></script>
+    <script>
+    var pattern = GeoPattern.generate(new Date().toString(), {color:'#607D8B'});
+    document.getElementById('top-header').style.backgroundImage = pattern.toDataUrl();
+    </script>
+  </body>
+</html>

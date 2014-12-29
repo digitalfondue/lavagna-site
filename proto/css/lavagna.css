@@ -1,0 +1,67 @@
+div.section.hero {
+/*  background-color:#607D8B;*/
+  color:white
+}
+
+nav {
+  text-align:right;
+}
+
+.navbar ul {
+  margin:0;
+  margin-top:5px;
+  padding:0;
+}
+
+#top-header .one-half.column {
+  background-color:rgba(0,0,0,0.3);
+  padding-left:10px;
+  padding-right:10px;
+}
+
+#top-header h1 {
+  font-size: 3rem;
+  line-height: 1.35;
+  letter-spacing: -0.08rem;
+}
+
+#top-header .documentation-header h1 {
+  margin-bottom:0;
+}
+
+.main-content h2 {
+  font-size: 3rem;
+  line-height: 1.35;
+  letter-spacing: -0.08rem;
+  margin-bottom:5px;
+  margin-top:10px;
+}
+
+.navbar ul, .navbar li {
+  display:inline-block;
+}
+
+.navbar li {
+  padding:5px;
+  margin-bottom:5px;
+  border-bottom:2px solid white
+}
+
+.navbar li:hover {
+  border-bottom:2px solid #80D8FF
+}
+
+.navbar a {
+  color:black;
+  text-decoration:none;
+}
+
+.download-button {
+  background-color:#78909C;
+  border:none;
+  color:white;
+}
+
+.download-button:hover {
+  color:white;
+}
