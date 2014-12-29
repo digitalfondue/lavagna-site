@@ -6,46 +6,42 @@
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
 
-    <link rel="stylesheet" href="css/lavagna.css">
+    <link rel="stylesheet" href="../css/lavagna.css">
 
   </head>
   <body>
     <div class="section hero">
       <nav class="navbar">
         <div class="container">
-          <ul class="navbar-list left">
-            <li><a href="">Lavagna</a>
+        <ul class="navbar-list left">
+            <li><a href="../">Lavagna</a>
           </ul>
           <ul class="navbar-list right">
-            <li><a href="download/">Download</a>
-            <li><a href="documentation/">Documentation</a>
+            <li class="active"><a href="">Download</a>
+            <li><a href="../documentation/">Documentation</a>
             <li><a href="https://github.com/digitalfondue/lavagna">Github</a>
           </ul>
         </div>
       </nav>
       <div id="top-header">
-        <div class="container">
+        <div class="container documentation-header">
           <div class="row">
             <div class="one-half column">
-              <h1 class="hero-heading">Lavagna is an open-source agile project management tool designed for small team. Lightweight, pure java, easy to install and use.</h1>
-              <a class="button download-button" href="download">Download latest release: 1.0-M1</a>
+              <h1 class="hero-heading">Download</h1>
             </div>
           </div>
         </div>
       </div>
     </div>
     
-    <div class="container main-content">
-      <h2>About</h2>
-      TBD
-      <h2>Features</h2>
-      TBD HERE SCREENSHOTS
+    <div class="container main-content main-content-doc">
+      <h2>Download</h2>
     </div>
     
-    <script src="js/geopattern.min.js"></script>
+    <script src="../js/geopattern.min.js"></script>
     <script>
     var pattern = GeoPattern.generate(new Date().toString(), {color:'#607D8B'});
     document.getElementById('top-header').style.backgroundImage = pattern.toDataUrl();

@@ -1,10 +1,5 @@
 div.section.hero {
-/*  background-color:#607D8B;*/
   color:white
-}
-
-nav {
-  text-align:right;
 }
 
 .navbar ul {
@@ -12,6 +7,11 @@ nav {
   margin-top:5px;
   padding:0;
 }
+
+.navbar-list.right {
+  float:right;
+}
+
 
 #top-header .one-half.column {
   background-color:rgba(0,0,0,0.3);
@@ -47,7 +47,7 @@ nav {
   border-bottom:2px solid white
 }
 
-.navbar li:hover {
+.navbar li:hover, .navbar li.active {
   border-bottom:2px solid #80D8FF
 }
 
@@ -64,4 +64,9 @@ nav {
 
 .download-button:hover {
   color:white;
+}
+
+.main-content-doc {
+  padding-left:10px;
+  padding-right:10px;
 }
