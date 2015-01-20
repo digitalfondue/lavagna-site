@@ -21,6 +21,13 @@ div.section.hero {
   text-align:center;
 }
 
+@media (min-width: 750px) {
+  #top-header .twelfe.columns > div {
+    max-width:60%;
+    margin:auto;
+  }
+}
+
 #top-header h1 {
   font-size: 3rem;
   line-height: 1.35;
@@ -31,17 +38,16 @@ div.section.hero {
   margin-bottom:0;
 }
 
+.container.main-content {
+  margin-top:20px;
+}
+
 .main-content h2 {
   font-size: 3rem;
   line-height: 1.35;
   letter-spacing: -0.08rem;
   margin-bottom:5px;
   margin-top:10px;
-}
-
-.main-content h3 {
-  font-size:2rem;
-  margin-bottom:5px;
 }
 
 .main-content .row {
