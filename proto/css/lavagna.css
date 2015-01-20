@@ -37,6 +37,15 @@ div.section.hero {
   margin-top:10px;
 }
 
+.main-content h3 {
+  font-size:2rem;
+  margin-bottom:5px;
+}
+
+.main-content .row {
+  margin-bottom:20px;
+}
+
 .navbar ul, .navbar li {
   display:inline-block;
 }
@@ -69,4 +78,8 @@ div.section.hero {
 .main-content-doc {
   padding-left:10px;
   padding-right:10px;
+}
+
+.app-img {
+  background-color:#78909C;
 }
