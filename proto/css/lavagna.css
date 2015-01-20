@@ -80,6 +80,14 @@ div.section.hero {
   padding-right:10px;
 }
 
+@media (min-width: 750px) { 
+  .main-content-description {
+    max-width:60%;
+    margin:auto;
+    text-align:center;
+  }
+}
+
 .app-img {
   background-color:#78909C;
 }
