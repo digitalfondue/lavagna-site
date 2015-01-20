@@ -8,8 +8,12 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
+    
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.3.15/slick.css"/>
 
     <link rel="stylesheet" href="css/lavagna.css">
+    
+
 
   </head>
   <body>
@@ -49,7 +53,12 @@
       </div>
       <div class="row main-content-description">
         <div class="twelfe columns">
-          <img class="u-max-full-width app-img" src="images/placeholder.png">
+          <div class="carousel">
+            <div><img class="u-max-full-width app-img" src="images/placeholder.png"></div>
+            <div><img class="u-max-full-width app-img" src="images/placeholder.png"></div>
+            <div><img class="u-max-full-width app-img" src="images/placeholder.png"></div>
+          </div>
+
         </div>
       </div>
       
@@ -125,5 +134,15 @@
     var pattern = GeoPattern.generate(new Date().toString(), {color:'#607D8B'});
     document.getElementById('top-header').style.backgroundImage = pattern.toDataUrl();
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.3.15/slick.min.js"></script>
+   
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.carousel').slick({'dots' : true});
+      });
+    </script>
+
   </body>
 </html>

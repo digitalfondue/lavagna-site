@@ -34,7 +34,7 @@ div.section.hero {
   letter-spacing: -0.08rem;
 }
 
-#top-header .documentation-header h1 {
+#top-header .documentati.slick-prev:before, .slick-next:beforeon-header h1 {
   margin-bottom:0;
 }
 
@@ -98,4 +98,8 @@ div.section.hero {
 
 .app-img {
   background-color:#78909C;
+}
+
+.slick-prev:before, .slick-next:before {
+  color:black;
 }
