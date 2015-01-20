@@ -13,10 +13,12 @@ div.section.hero {
 }
 
 
-#top-header .one-half.column {
+#top-header .twelfe.columns {
   background-color:rgba(0,0,0,0.3);
+  padding-top:10px;
   padding-left:10px;
   padding-right:10px;
+  text-align:center;
 }
 
 #top-header h1 {
