@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
@@ -16,123 +18,168 @@
 
 
   </head>
-  <body>
-    <div class="section hero">
-      <nav class="navbar">
-        <div class="container">
-          <ul class="navbar-list left">
-            <li><a href="">Lavagna</a>
-          </ul>
-          <ul class="navbar-list right">
-            <li><a href="download/">Download</a>
-            <li><a href="documentation/">Documentation</a>
-            <li><a href="https://github.com/digitalfondue/lavagna">Github</a>
-          </ul>
-        </div>
-      </nav>
-      <div id="top-header">
-        <div class="container">
-          <div class="row">
-            <div class="twelfe columns">
-              <div>
-                <h1 class="hero-heading">Lavagna is an open-source issue/project management tool designed for small teams. Lightweight, pure java, easy to install and use.</h1>
-                <a class="button download-button" href="download">Download latest release: 1.0-M1</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="container main-content">
-      <div class="row main-content-description">
-        <div class="twelfe columns">
-          <h2>Simple and realtime UI</h2>
-          <p>Lavagna strive for a simple user interface and experience. Using sock.js + stomp the UI is updated in realtime even when websocket is not available.</p>
-        </div>
-      </div>
-      <div class="row main-content-description">
-        <div class="twelfe columns">
-          <div class="carousel">
-            <div><img class="u-max-full-width app-img" src="images/placeholder.png"></div>
-            <div><img class="u-max-full-width app-img" src="images/placeholder.png"></div>
-            <div><img class="u-max-full-width app-img" src="images/placeholder.png"></div>
-          </div>
+  <body class="site">
+  	<header>
+  		<div class="section hero geopattern">
+	      <nav class="navbar">
+	        <div class="container">
+	          <ul class="navbar-list left">
+	            <li><a href="">Lavagna</a>
+	          </ul>
+	          <ul class="navbar-list right">
+	            <li><a href="download/">Download</a>
+	            <li><a href="https://help.lavagna.io">Help</a>
+	            <li><a href="https://github.com/digitalfondue/lavagna">Github</a>
+	          </ul>
+	        </div>
+	      </nav>
+	      <div id="top-header">
+	        <div class="container">
+	          <div class="row">
+	            <div class="twelfe columns">
+	              <div>
+	                <h1 class="hero-heading">Lavagna is an open-source issue/project management tool designed for small teams. Lightweight, pure Java, easy to install, easy to use.</h1>
+	                <a class="button download-button" href="download">Download latest release: 1.0-M1</a>
+	              </div>
+	            </div>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+  	</header>
 
-        </div>
-      </div>
-      
-      <div class="row main-content-description">
-        <div class="twelfe columns">
-          <h2>Keep your projects under control</h2>
-          <p>Lavagna is project based: under a project you can have multiple boards.</p>
-          <p>With a nice dashboard you can have a fast overview of the whole project or a single board. Additionally a specific milestone page is present for your planning.</p>
-        </div>
-      </div>
-      <div class="row main-content-description">
-        <div class="twelfe columns">
-          <img class="u-max-full-width app-img" src="images/placeholder.png">
-        </div>
-      </div>
-      
-      
-      <div class="row main-content-description">
-        <div class="twelfe columns">
-          <h2>Multi projects support with fine grained access control</h2>
-          <p>For each project the administator can specify roles with different capabilities for each user.</p>
-        </div>
-      </div>
-      <div class="row main-content-description">
-        <div class="twelfe columns">
-          <img class="u-max-full-width app-img" src="images/placeholder.png">
-        </div>
-      </div>
-      
-      <div class="row main-content-description">
-        <div class="twelfe columns">
-          <h2>Multiple login providers supported</h2>
-          <p>Lavagna operate with a white list approach. The valid user must be added in the system. We delegate only the login part to a external provider so we don't have any password in the system</p>
-          <ul>
-            <li>ldap
-            <li>oauth: github/bitbucket/twitter/google
-            <li>mozilla persona
-            <li>test (use it only for testing purpose!)
-          </ul>
-        </div>
-      </div>
-      <div class="row main-content-description">
-        <div class="twelfe columns">
-          <img class="u-max-full-width app-img" src="images/placeholder.png">
-        </div>
-      </div>
-      
-      <div class="row main-content-description">
-        <div class="twelfe columns">
-          <h2>Customizable per project labels</h2>
-          <p>Lavagna support user defined typed label. For example you can define a "Priority" tag with a restricted set of value. The currently supported type of labels are:</p>
-          <ul>
-            <li>empty label: no user defined value can be set
-            <li>string label: the user can attach an additional text
-            <li>number label: the user can attach a number
-            <li>date label: the user can attach a date
-            <li>user label: the user can attach a user to the label
-            <li>card label: the user can reference a card
-            <li>list label: the user can select from a predefined list of values
-          </ul>
-        </div>
-      </div>
-      <div class="row main-content-description">
-        <div class="twelfe columns">
-          <img class="u-max-full-width app-img" src="images/placeholder.png">
-        </div>
-      </div>
-      
-    </div>
+	<main class="site-content">
+    
+    
+	    <div class="container main-content">
+	      <div class="row main-content-description">
+	        <div class="twelfe columns">
+	          <h2>Easy on the eyes, realtime UI</h2>
+	          <p>Lavagna strive for a simple user interface and experience. Using a combination of sock.js and stomp, the UI is updated in realtime, even when websocket is not available.</p>
+	        </div>
+	      </div>
+	      <div class="row main-content-description">
+	        <div class="twelfe columns">
+	          <div class="carousel">
+	            <div><img class="u-max-full-width app-img" src="images/lavagna-board.png"></div>
+	            <div><img class="u-max-full-width app-img" src="images/lavagna-card.png"></div>
+	            <div><img class="u-max-full-width app-img" src="images/lavagna-board-filter.png"></div>
+	            <div><img class="u-max-full-width app-img" src="images/placeholder.png"></div>
+	          </div>
+	
+	        </div>
+	      </div>
+	      
+	      <div class="row main-content-description">
+	        <div class="twelfe columns">
+	          <h2>Keep your projects under control</h2>
+	          <p>Multiple projects, Multiple boards. A nice dashboard view gives a quick glance at the status of you work.</p>
+	          <p>Milestone overview and project statistics are just one click away.</p>
+	          <p class="doc-link"><a href="documentation/">Project documentation</a></p>
+	        </div>
+	      </div>
+	      <div class="row main-content-description">
+	        <div class="twelfe columns">
+	          <img class="u-max-full-width app-img" src="images/placeholder.png">
+	        </div>
+	      </div>
+	      
+	      <div class="row main-content-description">
+	        <div class="twelfe columns">
+	          <h2>Powerful search</h2>
+	          <p>Lavagna search engine let you refine your query by using all the metadata available and full text search.</p>
+	          <p class="doc-link"><a href="documentation/">Search documentation</a></p>
+	      	</div>
+	      </div>
+	      <div class="row main-content-description">
+	        <div class="twelfe columns">
+	          <img class="u-max-full-width app-img" src="images/placeholder.png">
+	        </div>
+	      </div>
+	      
+	      <div class="row main-content-description">
+	        <div class="twelfe columns">
+	          <h2>Customizable labels</h2>
+	          <p>Lavagna supports unlimited user defined typed label. Be it a simple label, a card or user reference, a list, Lavagna has them all.</p>
+	          <p class="doc-link"><a href="documentation/">Labels documentation</a></p>
+	      	</div>
+	      </div>
+	      <div class="row main-content-description">
+	        <div class="twelfe columns">
+	          <img class="u-max-full-width app-img" src="images/placeholder.png">
+	        </div>
+	      </div>
+	      
+	      <div class="row main-content-description">
+	        <div class="twelfe columns">
+	          <h2>Fine grained access control</h2>
+	          <p>Define global and per project permission for each single user.</p>
+	          <p class="doc-link"><a href="documentation/">Roles documentation</a></p>
+	        </div>
+	      </div>
+	      <div class="row main-content-description">
+	        <div class="twelfe columns">
+	          <img class="u-max-full-width app-img" src="images/placeholder.png">
+	        </div>
+	      </div>
+	      
+	      <div class="row main-content-description">
+	        <div class="twelfe columns">
+	          <h2>Multiple login providers</h2>
+	          <p>Lavagna supports the most widespread authentication providers, such as OAuth, Persona, and LDAP. No passwords are stored in the application.</p>
+	          <p class="doc-link"><a href="documentation/">Login Providers documentation</a></p>
+	        </div>
+	      </div>
+	      <div class="row main-content-description">
+	        <div class="twelfe columns">
+	          <img class="u-max-full-width app-img" src="images/placeholder.png">
+	        </div>
+	      </div>
+	      
+	    </div>
+	</main>
+    
+    <footer class="footer">
+    	<div class="container">
+	    	<ol class="footer-columns">
+	    		<li class="footer-column">
+	    			<span class="footer-column-title">Navigation</span>
+	    			<ol>
+	    				<li><a href="/">Home</a></li>
+	    				<li><a href="download/">Download</a></li>
+	    				<li><a href="https//help.lavagna.io">Help</a></li>
+	    			</ol>
+	    		</li>
+	    		<li class="footer-column">
+	    			<span class="footer-column-title">Support</span>
+	    			<ol>
+	    				<li><a href="mailto:info@digitalfondue.ch">Contact Us</a></li>
+	    				<li><a href="donate/">Donate</a></li>
+	    			</ol>
+	    		</li>
+	    		<li class="footer-column">
+	    			<span class="footer-column-title">Social</span>
+	    			<ol>
+	    				<li><a href="https://twitter.com/digitalfondue"><i class="fa fa-twitter"></i>Twitter</a></li>
+	    				<li><a href="https://github.com/digitalfondue"><i class="fa fa-github"></i>Github</a></li>
+	    			</ol>
+	    		</li>
+	    	</ol>
+	    </div>
+	    <div class="copyright">
+	    	<div class="container">
+	    		© 2015 <a href="https://digitalfondue.ch">Digitalfondue.ch</a>
+	    	</div>
+	    </div>
+    </footer>
     
     <script src="js/geopattern.min.js"></script>
     <script>
     var pattern = GeoPattern.generate(new Date().toString(), {color:'#607D8B'});
-    document.getElementById('top-header').style.backgroundImage = pattern.toDataUrl();
+    var geoPatternElements = document.getElementsByClassName('geopattern');
+    for(var i = 0; i < geoPatternElements.length; i++) {
+    	geoPatternElements[i].style.backgroundImage = pattern.toDataUrl();
+    }
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.slick/1.3.15/slick.min.js"></script>
