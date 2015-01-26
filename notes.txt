@@ -1,0 +1,3 @@
+thumb generation:
+
+- mogrify -path thumb/ -thumbnail 576x324 *.png
