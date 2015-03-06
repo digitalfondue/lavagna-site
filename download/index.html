@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lavagna</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.3.15/slick.css"/>
+
+    <link rel="stylesheet" href="../css/lavagna.css">
+
+  </head>
+  <body class="site">
+  	<header>
+	    <div class="section hero geopattern">
+	      <nav class="navbar">
+	        <div class="container">
+	        <ul class="navbar-list left">
+	            <li><a href="../">Lavagna</a>
+	          </ul>
+	          <ul class="navbar-list right">
+	            <li class="active"><a href="">Download</a>
+	            <li><a href="../roadmap/">Roadmap</a>
+	            <li><a href="http://help.lavagna.io">Help</a>
+	            <li><a href="../donate/">Donate</a>
+	            <li><a href="https://github.com/digitalfondue/lavagna">Github</a>
+	          </ul>
+	        </div>
+	      </nav>
+	    </div>
+    </header>
+    
+    <main class="site-content">
+	    <div class="container main-content main-content-doc">
+	      <h2>Latest release</h2>
+	      <p>The latest release is lavagna 1.0-M1 (2015-01-07). See on <a href="https://github.com/digitalfondue/lavagna/releases/tag/lavagna-1.0-M1">github</a>.</p>
+	      <div><a href="https://github.com/digitalfondue/lavagna/releases/download/lavagna-1.0-M1/lavagna-1.0-M1-distribution.zip">Download zip</a></div>
+	      <div><a href="https://github.com/digitalfondue/lavagna/releases/download/lavagna-1.0-M1/lavagna-1.0-M1-distribution.tar.gz">Download tar.gz</a></div>
+	      <h2>Changelog</h2>
+	      <h3 class="roadmap">Lavagna 1.0-M1 (2015-01-07)</h3>
+	      <ul class="release">
+	          <li>
+	              <span>First public release. Milestone 1.</span>
+	          </li>
+	      </ul>
+	      
+	      <!--<h2>Previous releases</h2>-->
+	    </div>
+    </main>
+    
+    <footer class="footer">
+    	<div class="container">
+	    	<ol class="footer-columns">
+	    		<li class="footer-column">
+	    			<span class="footer-column-title">Navigation</span>
+	    			<ol>
+	    				<li><a href="../">Home</a></li>
+	    				<li><a href="">Download</a></li>
+	    				<li><a href="../roadmap/">Roadmap</a></li>
+	    				<li><a href="http://help.lavagna.io">Help</a></li>
+	    			</ol>
+	    		</li>
+	    		<li class="footer-column">
+	    			<span class="footer-column-title">Support</span>
+	    			<ol>
+	    				<li><a href="mailto:info@digitalfondue.ch">Contact Us</a></li>
+	    				<li><a href="../donate/">Donate</a></li>
+	    			</ol>
+	    		</li>
+	    		<li class="footer-column">
+	    			<span class="footer-column-title">Social</span>
+	    			<ol>
+	    				<li><a href="https://twitter.com/digitalfondue"><i class="fa fa-twitter"></i>Twitter</a></li>
+	    				<li><a href="https://github.com/digitalfondue"><i class="fa fa-github"></i>Github</a></li>
+	    			</ol>
+	    		</li>
+	    	</ol>
+	    </div>
+	    <div class="copyright">
+	    	<div class="container">
+	    		&copy; 2015 <a href="http://digitalfondue.ch"><img src="../images/logo_digitalfondue_220.png" class="logo"></a>
+	    	</div>
+	    </div>
+    </footer>
+    
+    <script src="../js/geopattern.min.js"></script>
+    <script>
+    var pattern = GeoPattern.generate(new Date().toString(), {color:'#607D8B'});
+    var geoPatternElements = document.getElementsByClassName('geopattern');
+    for(var i = 0; i < geoPatternElements.length; i++) {
+    	geoPatternElements[i].style.backgroundImage = pattern.toDataUrl();
+    }
+    </script>
+  </body>
+</html>
