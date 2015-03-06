@@ -197,14 +197,18 @@ ol.footer-columns .footer-column > ol > li {
 	background-color: #393b3e;
 }
 
-.footer .copyright a {
-	text-decoration: none;
-	color: #e2e2e2;
+.footer .copyright .container {
+	display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.footer .copyright a:hover {
-	text-decoration: none;
-	color: white;
+.footer .copyright a {
+  margin-left: 20px;
+}
+
+.footer .copyright img {
+  height: 45px;
 }
 
 .footer .fa {
