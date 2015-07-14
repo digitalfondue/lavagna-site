@@ -1,11 +1,21 @@
+html {
+	height: 100%;
+}
+
 .site {
   display: flex;
   min-height: 100vh;
+  height: 100%;
   flex-direction: column;
 }
 
 .site-content {
-  flex: 1;
+  flex: 1 0 auto;
+}
+
+.header {
+	flex: none;
+	display: block;
 }
 
 div.section.hero {
@@ -147,6 +157,8 @@ p.doc-link {
 	min-height: 60px;
 	background-color: #242629;
 	color: #E2E2E2;
+	flex: none;
+	display: block;
 }
 
 .footer a {
