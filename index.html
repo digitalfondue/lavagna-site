@@ -8,34 +8,34 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css">
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/skeleton.css">
     
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.4.33/example1/colorbox.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.3.15/slick.css">
 
-    <link rel="stylesheet" href="css/lavagna.css">
+    <link rel="stylesheet" href="./css/lavagna.css">
     
   </head>
   <body class="site">
-  	<header class="header">
-  		<div class="section hero geopattern">
+  
+    <header class="header">
+	    <div class="section hero geopattern">
 	      <nav class="navbar">
 	        <div class="container">
-	          <ul class="navbar-list left">
-	            <li><a href="">Lavagna</a>
+	        <ul class="navbar-list left">
+	            <li><a href=".">Lavagna</a>
 	          </ul>
 	          <ul class="navbar-list right">
-	            <li><a href="download/">Download</a>
-	            <li><a href="roadmap/">Roadmap</a>
-	            <li><a href="help/">Help</a>
-	            <li><a href="donate/">Donate</a>
+	            <li class=""><a href="./download/">Download</a>
+	            <li class=""><a href="./roadmap/">Roadmap</a>
+	            <li class=""><a href="./help/">Help</a>
 	            <li><a href="https://github.com/digitalfondue/lavagna">Github</a>
 	          </ul>
 	        </div>
 	      </nav>
-	      <div id="top-header">
+          <div id="top-header">
 	        <div class="container">
 	          <div class="row">
 	            <div class="twelfe columns">
@@ -48,11 +48,11 @@
 	        </div>
 	      </div>
 	    </div>
-  	</header>
-
-	<main class="site-content">
-    
-    
+	    </div>
+    </header>
+  
+      <main class="site-content">
+      
 	    <div class="container main-content">
 	      <div class="row main-content-description">
 	        <div class="twelfe columns">
@@ -149,7 +149,8 @@
 	      </div>
 	      
 	    </div>
-	</main>
+
+        </main>
     
     <footer class="footer">
     	<div class="container">
@@ -157,17 +158,16 @@
 	    		<li class="footer-column">
 	    			<span class="footer-column-title">Navigation</span>
 	    			<ol>
-	    				<li><a href="">Home</a></li>
-	    				<li><a href="download/">Download</a></li>
-	    				<li><a href="roadmap/">Roadmap</a></li>
-	    				<li><a href="help/">Help</a></li>
+	    				<li><a href=".">Home</a></li>
+	    				<li><a href="./download/">Download</a></li>
+	    				<li><a href="./roadmap/">Roadmap</a></li>
+	    				<li><a href="./help/">Help</a></li>
 	    			</ol>
 	    		</li>
 	    		<li class="footer-column">
 	    			<span class="footer-column-title">Support</span>
 	    			<ol>
 	    				<li><a href="mailto:info@digitalfondue.ch">Contact Us</a></li>
-	    				<li><a href="donate/">Donate</a></li>
 	    			</ol>
 	    		</li>
 	    		<li class="footer-column">
@@ -181,12 +181,14 @@
 	    </div>
 	    <div class="copyright">
 	    	<div class="container">
-	    		&copy; 2015 <a href="http://digitalfondue.ch"><img src="images/logo_digitalfondue_220.png" class="logo"></a>
+	    		&copy; 2015 <a href="http://digitalfondue.ch"><img src="./images/logo_digitalfondue_220.png" class="logo"></a>
 	    	</div>
 	    </div>
     </footer>
+
     
-    <script src="js/geopattern.min.js"></script>
+    
+    <script src="./js/geopattern.min.js"></script>
     <script>
     var pattern = GeoPattern.generate(new Date().toString(), {color:'#607D8B'});
     var geoPatternElements = document.getElementsByClassName('geopattern');
