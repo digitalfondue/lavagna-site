@@ -1,0 +1,15 @@
+{% extends "common/base-page.peb" %}
+
+{% block help %}active{% endblock %}
+
+{% block content %}
+  <div class="container main-content main-content-doc">
+    <h2>Online documentation</h2>
+    <p>Browse our user manual at <a href="http://help.lavagna.io">http://help.lavagna.io</a></p>
+  </div>
+	    
+  <div class="container main-content main-content-doc">
+    <h2>Tutorials</h2>
+    <p>Here is a list of useful tutorials meant to complement the documentation</p>
+  </div>
+{% endblock %}

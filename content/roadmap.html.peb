@@ -1,0 +1,171 @@
+{% extends "common/base-page.peb" %}
+
+{% block roadmap %}active{% endblock %}
+
+{% block content %}  
+    	<div class="container main-content main-content-doc">
+	      <h2>Roadmap</h2>
+	      <p>Below is a very high level roadmap of the feature we plan to implement. Things can change at any time, but it should give an idea of where the project is going.</p>
+	    </div>
+    	
+    	<div class="container main-content main-content-doc">
+	      <h3 class="roadmap">Release 1.1</h3>
+	      <ul class="release">
+	          <li>
+	              <span>Infrastructure</span>
+	              <ul>
+	                  <li>
+	                      <span class="feature">Angular 1.4 or later</span>
+	                  </li>
+	                  <li>
+	                      <span class="feature">Security improvements (CSP)</span>
+	                  </li>
+	              </ul>
+              </li>
+              <li>
+	              <span>General Features</span>
+	              <ul>
+	                  <li>
+	                      <span class="feature">Basic keyboard navigation</span>
+	                  </li>
+	                  <li>
+	                      <span class="feature">RCS commit integration</span>
+	                  </li>
+	                  <li>
+	                      <span class="feature">Task iCalendar</span>
+	                  </li>
+	                  <li>
+	                      <span class="feature">Better UI for smaller devices</span>
+	                  </li>
+	              </ul>
+              </li>
+              <li>
+	              <span>Project</span>
+	              <ul>
+	                  <li>
+	                      <span class="feature">Improved project administration UIs</span>
+	                  </li>
+	                  <li>
+	                      <span class="feature">Delete a project</span>
+	                  </li>
+	              </ul>
+              </li>
+	      </ul>
+	    </div>
+	    <div class="container main-content main-content-doc">
+	      <h3 class="roadmap">Release 1.0 (2015-08-05)</h3>
+	      <ul class="release">
+	          <li>
+	              <span>Basic features</span>
+	              <ul>
+	                  <li>
+	                      <span class="feature done">Multiple Login support</span>
+	                      <span class="milestone">1.0-M1</span>
+	                  </li>
+	                  <li>
+	                      <span class="feature done">Export & Import</span>
+	                      <span class="milestone">1.0-M1</span>
+	                  </li>
+	                  <li>
+	                      <span class="feature done">MySQL support</span>
+	                      <span class="milestone">1.0-M1</span>
+	                  </li>
+	                  <li>
+	                      <span class="feature done">PosgreSQL support</span>
+	                      <span class="milestone">1.0-M1</span>
+	                  </li>
+	                  <li>
+	                      <span class="feature done">HSQLDB support</span>
+	                      <span class="milestone">1.0-M1</span>
+	                  </li>
+	                  <li>
+	                      <span class="feature done">Parameterized search</span>
+	                      <span class="milestone">1.0-M1</span>
+	                  </li>
+	                  <li>
+	                      <span class="feature done">E-Mail notifications</span>
+	                      <span class="milestone">1.0-M1</span>
+	                  </li>
+	              </ul>
+              </li>
+              <li>
+	              <span>Project</span>
+	              <ul>
+	                  <li>
+	                      <span class="feature done">Project specific roles</span>
+	                      <span class="milestone">1.0-M1</span>
+	                  </li>
+	                  <li>
+	                      <span class="feature done">Milestones</span>
+	                      <span class="milestone">1.0-M1</span>
+	                  </li>
+	                  <li>
+	                      <span class="feature done">Statistics</span>
+	                      <span class="milestone">1.0-M1</span>
+	                  </li>
+	                  <li>
+	                      <span class="feature done">Typed labels</span>
+	                      <span class="milestone">1.0-M1</span>
+	                  </li>
+	                  <li>
+	                      <span class="feature done">Labels metadata</span>
+	                      <span class="milestone">1.0-M2</span>
+	                  </li>
+	              </ul>
+              </li>
+              <li>
+	              <span>Board</span>
+	              <ul>
+	                  <li>
+	                      <span class="feature done">Bulk operations</span>
+	                      <span class="milestone">1.0-M1</span>
+	                  </li>
+	                  <li>
+	                      <span class="feature done">Archive/Backlog/Trash</span>
+	                      <span class="milestone">1.0-M1</span>
+	                  </li>
+	                  <li>
+	                      <span class="feature done">Column operations</span>
+	                      <span class="milestone">1.0-M1</span>
+	                  </li>
+	              </ul>
+              </li>
+              <li>
+	              <span>Card</span>
+	              <ul>
+	                  <li>
+	                      <span class="feature done">Basic metadata such as Due Date, Assign/Watch, Milestones, Created/Modified</span>
+	                      <span class="milestone">1.0-M1</span>
+	                  </li>
+	                  <li>
+	                      <span class="feature done">Description</span>
+	                      <span class="milestone">1.0-M1</span>
+	                  </li>
+	                  <li>
+	                      <span class="feature done">Comments and file upload</span>
+	                      <span class="milestone">1.0-M1</span>
+	                  </li>
+	                  <li>
+	                      <span class="feature done">Action lists</span>
+	                      <span class="milestone">1.0-M1</span>
+	                  </li>
+	              </ul>
+              </li>
+              <li>
+	              <span>Documentation</span>
+	              <ul>
+	                  <li>
+	                      <span class="feature done">Online documentation</span>
+						  <span class="milestone">1.0</span>
+	                  </li>
+	                  <li>
+	                      <span class="feature done">Embedded documentation</span>
+						  <span class="milestone">1.0</span>
+	                  </li>
+	              </ul>
+              </li>
+              
+	      </ul>
+	    </div>
+
+{% endblock %}
