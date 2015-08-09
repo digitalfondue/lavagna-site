@@ -10,6 +10,8 @@
 	    
   <div class="container main-content main-content-doc">
     <h2>Tutorials</h2>
-    <p>Here is a list of useful tutorials meant to complement the documentation</p>
+    <ul>
+      <li><a href="openshift">Deploy on openshift</a></li>
+    </ul>
   </div>
 {% endblock %}
