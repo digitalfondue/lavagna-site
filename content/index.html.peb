@@ -1,5 +1,9 @@
 {% extends "common/base-page.peb" %}
 
+{% block metaheader %}
+<meta name="google-site-verification" content="0bi9UIpggBF-avRSe-1eE_cTWx5EMIun1q5FfMIZe30" />
+{% endblock %}
+
 {% block additionalheader %}
   <div id="top-header">
 	        <div class="container">

@@ -17,6 +17,8 @@
 
     <link rel="stylesheet" href="{{relativeRootPath}}/css/lavagna.css">
     
+    {% block metaheader %}{% endblock %}
+    
   </head>
   <body class="site">
   
