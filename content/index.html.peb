@@ -11,7 +11,7 @@
 	            <div class="twelfe columns">
 	              <div>
 	                <h1 class="hero-heading">Lavagna is an open-source issue/project management tool designed for small teams. Lightweight, pure Java, easy to install, easy to use.</h1>
-	                <a class="button download-button" href="download">Download latest release: 1.0.2</a>
+	                <a class="button download-button" href="download">Download latest release: 1.0.3</a>
 	              </div>
 	            </div>
 	          </div>
@@ -44,6 +44,7 @@
 	          <h2>Keep your projects under control</h2>
 	          <p>Multiple projects, Multiple boards. A nice dashboard view gives you a quick glance at the status of your work.</p>
 	          <p>Milestone overview and project statistics are just one click away.</p>
+	          <p>With the ics feed you can have your tasks in your preferred calendar application.</p>
 	        </div>
 	      </div>
 	      <div class="row main-content-carousel">
