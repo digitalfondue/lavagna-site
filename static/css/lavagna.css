@@ -113,13 +113,23 @@ p.doc-link {
 	margin: 0;
 }
 
-.download-button {
+.github-button {
+  margin-right:20px;
+}
+
+.github-button i.fa {
+  position:relative;
+  top:4px;
+  left:-10px;
+}
+
+.github-button, .download-button {
   background-color:#78909C;
   border:none;
   color:white;
 }
 
-.download-button:hover {
+.github-button:hover, .download-button:hover {
   color:white;
 }
 

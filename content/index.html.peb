@@ -11,7 +11,8 @@
 	            <div class="twelfe columns">
 	              <div>
 	                <h1 class="hero-heading">Lavagna is an open-source issue/project management tool designed for small teams. Lightweight, pure Java, easy to install, easy to use.</h1>
-	                <a class="button download-button" href="download">Download latest release: 1.0.3</a>
+	                <a class="button github-button" href="https://github.com/digitalfondue/lavagna"><i class="fa fa-2x fa-github"></i>View on github</a>
+	                <a class="button download-button" href="download">Download latest release: 1.0.4</a>
 	              </div>
 	            </div>
 	          </div>
@@ -107,7 +108,7 @@
 	      <div class="row main-content-description">
 	        <div class="twelfe columns">
 	          <h2>Multiple login providers</h2>
-	          <p>Lavagna supports the most widespread authentication providers, such as OAuth, Persona, and LDAP. No passwords are stored in the application.</p>
+	          <p>Lavagna supports the most widespread authentication providers, such as OAuth (gitlab (gitlab.com and self hosted), github, google, bitbucket, twitter), Persona, and LDAP. No passwords are stored in the application.</p>
 	        </div>
 	      </div>
 	      <div class="row main-content-carousel">
