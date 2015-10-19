@@ -51,8 +51,8 @@
     
     <p>Clone the git repository with: <code>git clone ssh://THE_SOURCE_CODE_URL</code> and enter the directory.
     <p>Remove the directories "misc", "diy" and the file README.md.
-    <p>Replace <strong>.openshift/action_hooks/start</strong> (note the hidden directory ".openshift") with the following <a href="https://gist.githubusercontent.com/syjer/f2700e59227566dc7dd0/raw/3c54d82e65f8f6980eefe5a432b46f0616d89d91/start">shell script</a>.</p>
-    <p>Replace <strong>.openshift/action_hooks/stop</strong> with the following <a href="https://gist.githubusercontent.com/syjer/f2700e59227566dc7dd0/raw/3c54d82e65f8f6980eefe5a432b46f0616d89d91/stop">shell script</a>.</p>
+    <p>Replace <strong>.openshift/action_hooks/start</strong> (note the hidden directory ".openshift") with the following <a href="https://gist.githubusercontent.com/syjer/f2700e59227566dc7dd0/raw/afe65b380413f1398f11ca0edfa432ca8d103039/start">shell script</a>.</p>
+    <p>Replace <strong>.openshift/action_hooks/stop</strong> with the following <a href="https://gist.githubusercontent.com/syjer/f2700e59227566dc7dd0/raw/afe65b380413f1398f11ca0edfa432ca8d103039/stop">shell script</a>.</p>
     
     <p>Commit your changes with: <code>git commit -a -m "update"</code></a></p>
     <p>Push <code>git push origin master</code> and wait some time as the application will boot up and then go to https://yourapp-yourdomain.rhcloud.com/setup/</p>
