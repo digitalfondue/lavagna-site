@@ -22,7 +22,7 @@
   </head>
   <body class="site">
   
-    <header class="header">
+    <div class="header">
 	    <div class="section hero geopattern">
 	      <nav class="navbar">
 	        <div class="container">
@@ -39,11 +39,9 @@
 	      </nav>
         {% block additionalheader %}{% endblock %}
 	    </div>
-    </header>
+    </div>
   
-      <main class="site-content">
-    {% block content %}{% endblock %}
-        </main>
+    <div class="site-content">{% block content %}{% endblock %}</div>
     
     <footer class="footer">
     	<div class="container">
