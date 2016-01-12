@@ -1,0 +1,17 @@
+#!/bin/bash
+source $OPENSHIFT_CARTRIDGE_SDK_BASH
+
+# kill the testrubyserver if present
+if ! [ -z "$(ps -ef | grep testrubyserver.rb | grep -v grep)" ]
+then
+    kill `ps -ef | grep testrubyserver.rb | grep -v grep | awk '{ print $2 }'` > /dev/null 2>&1
+fi
+
+
+# kill the jetty server
+if [ -z "$(ps -ef | grep jetty-console.war | grep -v grep)" ]
+then
+    client_result "Application is already stopped"
+else
+    kill `ps -ef | grep jetty-console.war | grep -v grep | awk '{ print $2 }'` > /dev/null 2>&1
+fi
