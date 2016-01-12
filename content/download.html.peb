@@ -6,9 +6,21 @@
 
 	    <div class="container main-content main-content-doc">
 	      <h2>Latest release</h2>
-	      <p>The latest release is lavagna 1.0.5.1 (2015-11-16). See on <a href="https://github.com/digitalfondue/lavagna/releases/tag/lavagna-1.0.5.1">github</a>.</p>
-	      <div><a href="https://github.com/digitalfondue/lavagna/releases/download/lavagna-1.0.5.1/lavagna-1.0.5.1-distribution.zip">Download zip</a></div>
+	      <p>The latest release is lavagna 1.0.5.2 (2016-01-12). See on <a href="https://github.com/digitalfondue/lavagna/releases/tag/lavagna-1.0.5.2">github</a>.</p>
+	      <div><a href="https://github.com/digitalfondue/lavagna/releases/download/lavagna-1.0.5.2/lavagna-1.0.5.2-distribution.zip">Download zip</a></div>
 	      <h2>Changelog</h2>
+        <h3 class="roadmap">Lavagna 1.0.5.2 (2016-01-12)</h3>
+	      <ul class="release">
+	          <li>
+	          Fix file upload issue when a user don't have a global READ role.
+	          </li>
+	          <li>
+	          Minor UI/UX improvements
+	          </li>
+	          <li>
+	            <span><a href="https://github.com/digitalfondue/lavagna/compare/lavagna-1.0.5.1...lavagna-1.0.5.2">Changelog</a></span>
+	          </li>
+	      </ul>
         <h3 class="roadmap">Lavagna 1.0.5.1 (2015-11-16)</h3>
 	      <ul class="release">
 	          <li>
