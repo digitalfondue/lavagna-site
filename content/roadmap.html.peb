@@ -15,7 +15,7 @@
 	              <span>Infrastructure</span>
 	              <ul>
 	                  <li>
-	                      <span class="feature">Angular 1.5 or later</span>
+	                      <span class="feature">Angular 1.5 or later [backported in release 1.0.6.1]</span>
 	                  </li>
 	              </ul>
               </li>
@@ -30,6 +30,9 @@
 	                  </li>
 	                  <li>
 	                      <span class="feature">Task iCalendar [backported in release 1.0.3]</span>
+	                  </li>
+	                  <li>
+	                      <span class="feature">"Material design" UI/UX</span>
 	                  </li>
 	                  <li>
 	                      <span class="feature">Better UI for smaller devices</span>
