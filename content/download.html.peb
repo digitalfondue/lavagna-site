@@ -9,6 +9,13 @@
 	      <p>The latest release is lavagna {{data['info'].latestVersion}} ({{data['info'].releaseDate}}). See on <a href="https://github.com/digitalfondue/lavagna/releases/tag/lavagna-{{data['info'].latestVersion}}">github</a>.</p>
 	      <div><a href="https://github.com/digitalfondue/lavagna/releases/download/lavagna-{{data['info'].latestVersion}}/lavagna-{{data['info'].latestVersion}}-distribution.zip">Download zip of Lavagna {{data['info'].latestVersion}}</a></div>
 	      <h2>Changelog</h2>
+	      <h3 class="roadmap">Lavagna 1.0.6.2 (2016-03-28)</h3>
+	      <ul class="release">
+ 	          <li>Fix stomp-client unsubscription mechanism
+            <li>
+	            <span><a href="https://github.com/digitalfondue/lavagna/compare/lavagna-1.0.6.1...lavagna-1.0.6.2">Changelog</a></span>
+	          </li>
+        </ul>
 	      <h3 class="roadmap">Lavagna 1.0.6.1 (2016-03-25)</h3>
 	      <ul class="release">
  	          <li>Clone card functionality
