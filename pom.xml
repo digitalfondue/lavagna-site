@@ -1,0 +1,84 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.sonatype.oss</groupId>
+		<artifactId>oss-parent</artifactId>
+		<version>9</version>
+	</parent>
+
+	<groupId>io.lavagna</groupId>
+	<artifactId>lavagna-site</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<inceptionYear>2014</inceptionYear>
+
+	<name>lavagna</name>
+	<url>http://lavagna.io</url>
+
+	<licenses>
+		<license>
+			<name>GNU General Public License Version 3</name>
+			<url>https://www.gnu.org/licenses/gpl.txt</url>
+		</license>
+	</licenses>
+
+	<scm>
+		<connection>scm:git:git@github.com:digitalfondue/lavagna-site.git</connection>
+		<developerConnection>scm:git:git@github.com:digitalfondue/lavagna-site.git</developerConnection>
+		<url>https://github.com/digitalfondue/lavagna-site.git</url>
+		<tag>HEAD</tag>
+	</scm>
+
+	<developers>
+        <developer>
+            <name>Sylvain Jermini</name>
+            <email>sylvain.jermini@syjer.com</email>
+            <organization>digitalfondue</organization>
+            <organizationUrl>http://digitalfondue.ch</organizationUrl>
+        </developer>
+
+        <developer>
+            <name>Eros Taborelli</name>
+            <email>eros.taborelli@erost.net</email>
+            <organization>digitalfondue</organization>
+            <organizationUrl>http://digitalfondue.ch</organizationUrl>
+        </developer>
+
+
+        <developer>
+            <name>Simone Grignola</name>
+            <email>sito@grignola.ch</email>
+            <organization>digitalfondue</organization>
+            <organizationUrl>http://digitalfondue.ch</organizationUrl>
+        </developer>
+	</developers>
+
+	<prerequisites>
+		<maven>3.2.1</maven>
+	</prerequisites>
+
+
+	<!-- -->
+	<build>
+		<finalName>lavagna</finalName>
+		<plugins>
+			<plugin>
+			  <groupId>ch.digitalfondue.stampo</groupId>
+			  <artifactId>stampo-maven-plugin</artifactId>
+			  <version>1.2.1</version>
+			  <executions>
+			  <execution>
+			      <phase>compile</phase>
+			      <goals>
+			          <goal>build</goal>
+			      </goals>
+			  </execution>
+			  </executions>
+			  <configuration>
+			    <srcDir>${basedir}/site</srcDir>
+			    <outputDir>${project.build.directory}/site/</outputDir>
+			  </configuration>
+			</plugin>
+			</plugins>
+	</build>
+</project>
