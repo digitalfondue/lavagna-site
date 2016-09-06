@@ -4,6 +4,7 @@ cd `dirname "$(readlink -f "$0")"`
 mvn clean install
 rm -rf tmp-lavagna-site
 mv target/site tmp-lavagna-site
+rm -rf target
 git stash
 git checkout gh-pages
 rm -f CNAME
