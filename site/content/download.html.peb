@@ -6,7 +6,7 @@
 
 	    <div class="container main-content main-content-doc">
 	      <h2>Latest release</h2>
-	      <p>The latest release is lavagna {{data['info'].latestVersion}} ({{data['info'].releaseDate}}). See on <a href="https://github.com/digitalfondue/lavagna/releases/tag/lavagna-{{data['info'].latestVersion}}">github</a>.</p>
+	      <p>The latest release is lavagna {{data['info'].latestVersion}} ({{data['info'].releaseDate}}). View it on <a href="https://github.com/digitalfondue/lavagna/releases/tag/lavagna-{{data['info'].latestVersion}}">github</a>.</p>
 	      <div><a href="https://github.com/digitalfondue/lavagna/releases/download/lavagna-{{data['info'].latestVersion}}/lavagna-{{data['info'].latestVersion}}-distribution.zip">Download zip of Lavagna {{data['info'].latestVersion}}</a></div>
 	      <h2>Changelog</h2>
 	      <h3 class="roadmap">Lavagna {{data['info'].latestVersion}} ({{data['info'].releaseDate}})</h3>
