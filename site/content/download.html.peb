@@ -5,8 +5,8 @@
 {% block content %}
 
 	    <div class="container main-content main-content-doc">
-	      <h2>Latest release</h2>
-	      <p>The latest release is lavagna {{data['info'].latestVersion}} ({{data['info'].releaseDate}}). View it on <a href="https://github.com/digitalfondue/lavagna/releases/tag/lavagna-{{data['info'].latestVersion}}">github</a>.</p>
+	      <h2>Latest stable release</h2>
+	      <p>The latest stable release is lavagna {{data['info'].latestVersion}} ({{data['info'].releaseDate}}). View it on <a href="https://github.com/digitalfondue/lavagna/releases/tag/lavagna-{{data['info'].latestVersion}}">github</a>.</p>
 	      <div><a href="https://github.com/digitalfondue/lavagna/releases/download/lavagna-{{data['info'].latestVersion}}/lavagna-{{data['info'].latestVersion}}-distribution.zip">Download zip of Lavagna {{data['info'].latestVersion}}</a></div>
 	      <h2>Changelog</h2>
 	      <h3 class="roadmap">Lavagna {{data['info'].latestVersion}} ({{data['info'].releaseDate}})</h3>
@@ -15,6 +15,11 @@
 	            <span><a href="https://github.com/digitalfondue/lavagna/blob/master/CHANGELOG.md">Check out the full changelog on Github</a></span>
 	        </li>
           </ul>
+          
+          
+          <h2>Latest pre-release</h2>
+  	      <p>The pre-release is lavagna {{data['info'].latestPreReleaseVersion}} ({{data['info'].preReleaseDate}}). View it on <a href="https://github.com/digitalfondue/lavagna/releases/tag/lavagna-{{data['info'].latestPreReleaseVersion}}">github</a>.</p>
+  	      <p><a href="https://github.com/digitalfondue/lavagna/releases/download/lavagna-{{data['info'].latestPreReleaseVersion}}/lavagna-{{data['info'].latestPreReleaseVersion}}-distribution.zip">Download zip of Lavagna {{data['info'].latestPreReleaseVersion}}</a></p>
 	    </div>
     
 {% endblock %}

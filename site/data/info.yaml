@@ -1,2 +1,5 @@
-latestVersion: "1.0.7"
-releaseDate: "2016-08-28"
+latestVersion: "1.0.7.1"
+releaseDate: "2016-10-02"
+
+latestPreReleaseVersion: "1.1-M0"
+preReleaseDate: "2016-10-02"
