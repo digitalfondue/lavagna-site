@@ -7,6 +7,7 @@ mv target/site tmp-lavagna-site
 rm -rf target
 git stash
 git checkout gh-pages
+git pull
 rm -f CNAME
 rm -rf download  
 rm -rf images
