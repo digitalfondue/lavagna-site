@@ -2,12 +2,36 @@
 
 {% block roadmap %}active{% endblock %}
 
-{% block content %}  
+{% block content %}
     	<div class="container main-content main-content-doc">
 	      <h2>Roadmap</h2>
 	      <p>Below is a very high level roadmap of the feature we plan to implement. Things can change at any time, but it should give an idea of where the project is going.</p>
-	    </div>
-    	
+        <p>Always keep an eye on our <a href="https://github.com/digitalfondue/lavagna/issues">GitHub issue tracker</a> to check what our users are requesting</p>
+      </div>
+
+      <div class="container main-content main-content-doc">
+	      <h3 class="roadmap">Next</h3>
+	      <ul class="release">
+          <li>
+            <span>Features</span>
+            <ul>
+              <li>
+                  <span class="feature">RCS commit integration</span>
+              </li>
+              <li>
+                  <span class="feature">Better UI for smaller devices</span>
+              </li>
+              <li>
+                  <span class="feature">Delete a project</span>
+              </li>
+              <li>
+                  <span class="feature">Project and board templates</span>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
     	<div class="container main-content main-content-doc">
 	      <h3 class="roadmap">Release 1.1</h3>
 	      <ul class="release">
@@ -15,7 +39,8 @@
 	              <span>Infrastructure</span>
 	              <ul>
 	                  <li>
-	                      <span class="feature">Angular 1.5 or later [backported in release 1.0.6.1]</span>
+	                      <span class="feature done">Angular 1.5 or later [backported in release 1.0.6.1]</span>
+                        <span class="milestone">1.1-M1</span>
 	                  </li>
 	              </ul>
               </li>
@@ -23,19 +48,32 @@
 	              <span>General Features</span>
 	              <ul>
 	                  <li>
-	                      <span class="feature">Basic keyboard navigation</span>
+	                      <span class="feature done">"Material design" UI/UX</span>
+                        <span class="milestone">1.1-M1</span>
 	                  </li>
-	                  <li>
-	                      <span class="feature">RCS commit integration</span>
+                    <li>
+	                      <span class="feature done">Board performance improvements</span>
+                        <span class="milestone">1.1-M0</span>
 	                  </li>
-	                  <li>
-	                      <span class="feature">Task iCalendar [backported in release 1.0.3]</span>
+                    <li>
+	                      <span class="feature done">Internal authentication provider</span>
+                        <span class="milestone">1.1-M4</span>
 	                  </li>
-	                  <li>
-	                      <span class="feature">"Material design" UI/UX</span>
+                    <li>
+	                      <span class="feature done">Create cards via E-Mail</span>
+                        <span class="milestone">1.1-M4</span>
 	                  </li>
-	                  <li>
-	                      <span class="feature">Better UI for smaller devices</span>
+                    <li>
+	                      <span class="feature done">API Hook</span>
+                        <span class="milestone">1.1</span>
+	                  </li>
+                    <li>
+	                      <span class="feature done">Basic keyboard navigation</span>
+                        <span class="milestone">1.1-M1</span>
+	                  </li>
+                    <li>
+	                      <span class="feature done">Task iCalendar [backported in release 1.0.3]</span>
+                        <span class="milestone">1.1-M1</span>
 	                  </li>
 	              </ul>
               </li>
@@ -43,10 +81,8 @@
 	              <span>Project</span>
 	              <ul>
 	                  <li>
-	                      <span class="feature">Improved project administration UIs</span>
-	                  </li>
-	                  <li>
-	                      <span class="feature">Delete a project</span>
+	                      <span class="feature done">Improved project administration UIs</span>
+                        <span class="milestone">1.0-M1</span>
 	                  </li>
 	              </ul>
               </li>
@@ -168,7 +204,7 @@
 	                  </li>
 	              </ul>
               </li>
-              
+
 	      </ul>
 	    </div>
 

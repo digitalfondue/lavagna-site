@@ -10,7 +10,7 @@
 	          <div class="row">
 	            <div class="twelfe columns">
 	              <div>
-	                <h1 class="hero-heading">Lavagna is an open-source issue/project management tool designed for small teams. Lightweight, pure Java, easy to install, easy to use.</h1>
+	                <h1 class="hero-heading">Lavagna is an open-source issue/project management tool designed for small teams. Lightweight, easy to install, easy to use.</h1>
 	                <a class="button github-button" href="https://github.com/digitalfondue/lavagna"><i class="fa fa-2x fa-github"></i>View on github</a>
 	                <a class="button download-button" href="download">Download latest release: {{data['info'].latestVersion}}</a>
 	              </div>
@@ -22,104 +22,58 @@
 {% endblock %}
 
 {% block content %}
-  
+
 	    <div class="container main-content">
 	      <div class="row main-content-description">
 	        <div class="twelfe columns">
-	          <h2>Easy on the eyes, realtime UI</h2>
-	          <p>Lavagna strives for simple user interface and experience. Using a combination of sock.js and stomp, the UI is updated in realtime, even when websocket is not available.</p>
+	          <h2>Collaborate</h2>
+	          <p>Whether in the same building or miles away, your team won't miss anything important going on with your projects.</p>
 	        </div>
 	      </div>
 	      <div class="row main-content-carousel">
 	        <div class="twelfe columns">
-	          <div class="carousel">
- 	            <div><a class="group-1" href="images/lavagna-board.png"><img class="u-max-full-width app-img" src="images/thumb/lavagna-board.png"></a></div>
- 	            <div><a class="group-1" href="images/lavagna-card.png"><img class="u-max-full-width app-img" src="images/thumb/lavagna-card.png"></a></div>
-	            <div><a class="group-1" href="images/lavagna-home.png"><img class="u-max-full-width app-img" src="images/thumb/lavagna-home.png"></a></div>
-	          </div>
+            <img class="u-max-full-width app-img" src="images/lavagna-board.png">
 	        </div>
 	      </div>
-	      
+
 	      <div class="row main-content-description">
 	        <div class="twelfe columns">
-	          <h2>Keep your projects under control</h2>
-	          <p>Multiple projects, Multiple boards. A nice dashboard view gives you a quick glance at the status of your work.</p>
-	          <p>Milestone overview and project statistics are just one click away.</p>
-	          <p>With the ics feed you can have your tasks in your preferred calendar application.</p>
+	          <h2>Everything you need to work on your tasks</h2>
+	          <p>Use customized labels and checklists to define the scope</p>
+	          <p>Share information with comments and files</p>
+	          <p>Keep an eye on the finish line with status, due dates, and milestones</p>
 	        </div>
 	      </div>
 	      <div class="row main-content-carousel">
 	        <div class="twelfe columns">
-	          <div class="carousel">
-	            <div><a class="group-2" href="images/lavagna-project.png"><img class="u-max-full-width app-img" src="images/thumb/lavagna-project.png"></a></div>
-	            <div><a class="group-2" href="images/lavagna-milestones.png"><img class="u-max-full-width app-img" src="images/thumb/lavagna-milestones.png"></a></div>
-	            <div><a class="group-2" href="images/lavagna-milestone.png"><img class="u-max-full-width app-img" src="images/thumb/lavagna-milestone.png"></a></div>
- 	            <div><a class="group-2" href="images/lavagna-stat-1.png"><img class="u-max-full-width app-img" src="images/thumb/lavagna-stat-1.png"></a></div>
- 	            <div><a class="group-2" href="images/lavagna-stat-2.png"><img class="u-max-full-width app-img" src="images/thumb/lavagna-stat-2.png"></a></div>
- 	            <div><a class="group-2" href="images/lavagna-stat-3.png"><img class="u-max-full-width app-img" src="images/thumb/lavagna-stat-3.png"></a></div>
- 	          </div>
+	          <img class="u-max-full-width app-img" src="images/lavagna-card.png">
 	        </div>
 	      </div>
-	      
+
 	      <div class="row main-content-description">
 	        <div class="twelfe columns">
-	          <h2>Powerful search</h2>
-	          <p>Lavagna search engine let you refine your query by using all the metadata available, plus full text search.</p>
+	          <h2>There is no I in team</h2>
+	          <p>Participate in many project, with many roles, at the same time.</p>
+            <p>Lavagna gives you the ability to define projects the way you want: your team, your labels, your milestones, your board.</p>
 	      	</div>
 	      </div>
-	      <div class="row main-content-carousel">
+        <div class="row main-content-carousel">
 	        <div class="twelfe columns">
-	          <div class="carousel">
-  	          <div><a class="group-3" href="images/lavagna-search.png"><img class="u-max-full-width app-img" src="images/thumb/lavagna-search.png"></a></div>
-	            <div><a class="group-3" href="images/lavagna-board-filter.png"><img class="u-max-full-width app-img" src="images/thumb/lavagna-board-filter.png"></a></div>
-	          </div>
+	          <img class="u-max-full-width app-img" src="images/lavagna-dashboard.png">
 	        </div>
 	      </div>
-	      
-	      <div class="row main-content-description">
+
+        <div class="row main-content-description">
 	        <div class="twelfe columns">
-	          <h2>Customizable labels</h2>
-	          <p>Lavagna supports unlimited user defined typed label. Be it a simple label, a card or user reference, a list, Lavagna has them all.</p>
+	          <h2>Not convinced yet? Here is a list of features that may do</h2>
+	          <p>Multiple login providers: Google, Twitter, Github, LDAP, Gitlab (also on premises!), or add your own OAuth provider.</p>
+            <p>Fine grained access control: different projects, different roles.</p>
+            <p>Power search: metadata and full-text search are available.</p>
+            <p>Don't fear migration: import your boards and cards from Trello.</p>
+            <p>Open source: nobody likes bad surprises. With Lavagna, you can always see what's going on behind the scene.</p>
 	      	</div>
 	      </div>
-	      <div class="row main-content-carousel">
-	        <div class="twelfe columns">
-	          <div class="carousel">
-  	          <div><a class="group-4" href="images/lavagna-label-manage-1.png"><img class="u-max-full-width app-img" src="images/thumb/lavagna-label-manage-1.png"></a></div>
-	            <div><a class="group-4" href="images/lavagna-label-manage-2.png"><img class="u-max-full-width app-img" src="images/thumb/lavagna-label-manage-2.png"></a></div>
-	          </div>
-	        </div>
-	      </div>
-	      
-	      <div class="row main-content-description">
-	        <div class="twelfe columns">
-	          <h2>Fine grained access control</h2>
-	          <p>Define global and per project permission for each single user.</p>
-	        </div>
-	      </div>
-	      <div class="row main-content-carousel">
-	        <div class="twelfe columns">
-	          <div class="carousel">
-  	          <div><a class="group-5" href="images/lavagna-role-admin-1.png"><img class="u-max-full-width app-img" src="images/thumb/lavagna-role-admin-1.png"></a></div>
-	            <div><a class="group-5" href="images/lavagna-role-admin-2.png"><img class="u-max-full-width app-img" src="images/thumb/lavagna-role-admin-2.png"></a></div>
-	          </div>
-	        </div>
-	      </div>
-	      
-	      <div class="row main-content-description">
-	        <div class="twelfe columns">
-	          <h2>Multiple login providers</h2>
-	          <p>Lavagna supports the most widespread authentication providers, such as OAuth (gitlab (gitlab.com and self hosted), github, google, bitbucket, twitter), Persona, and LDAP. No passwords are stored in the application.</p>
-	        </div>
-	      </div>
-	      <div class="row main-content-carousel">
-	        <div class="twelfe columns">
-	          <div class="carousel">
-  	          <div><a class="group-6" href="images/lavagna-login.png"><img class="u-max-full-width app-img" src="images/thumb/lavagna-login.png"></a></div>
-	          </div>
-	        </div>
-	      </div>
-	      
+
 	    </div>
 
 {% endblock %}
