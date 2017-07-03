@@ -5,22 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-    
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css">
+
+    <link rel="icon" type="image/png" href="../favicon/logo_small_16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="../favicon/logo_small_32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="../favicon/logo_small_48x48.png" sizes="48x48">
+    <link rel="icon" type="image/png" href="../favicon/logo_small_96x96.png" sizes="96x96">
+    <link rel="apple-touch-icon" sizes="57x57" href="../favicon/logo_small_57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../favicon/logo_small_60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../favicon/logo_small_72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../favicon/logo_small_76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../favicon/logo_small_114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../favicon/logo_small_120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../favicon/logo_small_144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../favicon/logo_small_152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/logo_small_180x180.png">
 
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/skeleton.css">
-    
-    
+
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.4.33/example1/colorbox.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.3.15/slick.css">
 
     <link rel="stylesheet" href="../css/lavagna.css">
+
     
-        
   </head>
   <body class="site">
-  
+
     <div class="header">
 	    <div class="section hero geopattern">
 	      <nav class="navbar">
@@ -38,13 +51,36 @@
 	      </nav>
         	    </div>
     </div>
-  
-    <div class="site-content">  
-    	<div class="container main-content main-content-doc">
+
+    <div class="site-content">    	<div class="container main-content main-content-doc">
 	      <h2>Roadmap</h2>
 	      <p>Below is a very high level roadmap of the feature we plan to implement. Things can change at any time, but it should give an idea of where the project is going.</p>
-	    </div>
-    	
+        <p>Always keep an eye on our <a href="https://github.com/digitalfondue/lavagna/issues">GitHub issue tracker</a> to check what our users are requesting</p>
+      </div>
+
+      <div class="container main-content main-content-doc">
+	      <h3 class="roadmap">Next</h3>
+	      <ul class="release">
+          <li>
+            <span>Features</span>
+            <ul>
+              <li>
+                  <span class="feature">RCS commit integration</span>
+              </li>
+              <li>
+                  <span class="feature">Better UI for smaller devices</span>
+              </li>
+              <li>
+                  <span class="feature">Delete a project</span>
+              </li>
+              <li>
+                  <span class="feature">Project and board templates</span>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
     	<div class="container main-content main-content-doc">
 	      <h3 class="roadmap">Release 1.1</h3>
 	      <ul class="release">
@@ -52,7 +88,8 @@
 	              <span>Infrastructure</span>
 	              <ul>
 	                  <li>
-	                      <span class="feature">Angular 1.5 or later [backported in release 1.0.6.1]</span>
+	                      <span class="feature done">Angular 1.5 or later [backported in release 1.0.6.1]</span>
+                        <span class="milestone">1.1-M1</span>
 	                  </li>
 	              </ul>
               </li>
@@ -60,19 +97,32 @@
 	              <span>General Features</span>
 	              <ul>
 	                  <li>
-	                      <span class="feature">Basic keyboard navigation</span>
+	                      <span class="feature done">"Material design" UI/UX</span>
+                        <span class="milestone">1.1-M1</span>
 	                  </li>
-	                  <li>
-	                      <span class="feature">RCS commit integration</span>
+                    <li>
+	                      <span class="feature done">Board performance improvements</span>
+                        <span class="milestone">1.1-M0</span>
 	                  </li>
-	                  <li>
-	                      <span class="feature">Task iCalendar [backported in release 1.0.3]</span>
+                    <li>
+	                      <span class="feature done">Internal authentication provider</span>
+                        <span class="milestone">1.1-M4</span>
 	                  </li>
-	                  <li>
-	                      <span class="feature">"Material design" UI/UX</span>
+                    <li>
+	                      <span class="feature done">Create cards via E-Mail</span>
+                        <span class="milestone">1.1-M4</span>
 	                  </li>
-	                  <li>
-	                      <span class="feature">Better UI for smaller devices</span>
+                    <li>
+	                      <span class="feature done">API Hook</span>
+                        <span class="milestone">1.1</span>
+	                  </li>
+                    <li>
+	                      <span class="feature done">Basic keyboard navigation</span>
+                        <span class="milestone">1.1-M1</span>
+	                  </li>
+                    <li>
+	                      <span class="feature done">Task iCalendar [backported in release 1.0.3]</span>
+                        <span class="milestone">1.1-M1</span>
 	                  </li>
 	              </ul>
               </li>
@@ -80,10 +130,8 @@
 	              <span>Project</span>
 	              <ul>
 	                  <li>
-	                      <span class="feature">Improved project administration UIs</span>
-	                  </li>
-	                  <li>
-	                      <span class="feature">Delete a project</span>
+	                      <span class="feature done">Improved project administration UIs</span>
+                        <span class="milestone">1.0-M1</span>
 	                  </li>
 	              </ul>
               </li>
@@ -205,12 +253,12 @@
 	                  </li>
 	              </ul>
               </li>
-              
+
 	      </ul>
 	    </div>
 
 </div>
-    
+
     <footer class="footer">
     	<div class="container">
 	    	<ol class="footer-columns">
@@ -245,8 +293,8 @@
 	    </div>
     </footer>
 
-    
-    
+
+
     <script src="../js/geopattern.min.js"></script>
     <script>
     var pattern = GeoPattern.generate(new Date().toString(), {color:'#607D8B'});
@@ -262,10 +310,10 @@
     <script type="text/javascript">
       $(document).ready(function(){
         $('.carousel').slick({'dots' : true});
-        
+
         for(var i=0;i<7;i++) {
           $('.carousel div.slick-slide:not(.slick-cloned) a.group-'+i).colorbox({rel:'group'+i, opacity:0});
-        }        
+        }
       });
     </script>
     <script>
