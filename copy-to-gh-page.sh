@@ -14,6 +14,7 @@ rm -rf images
 rm -rf js
 rm start.txt
 rm -rf css
+rm -rf favicon
 rm -rf help
 rm -f index.html  
 rm -rf roadmap  
