@@ -17,9 +17,9 @@
           </ul>
           
           
-          <h2>Latest pre-release</h2>
+          <!--<h2>Latest pre-release</h2>
   	      <p>The pre-release is lavagna {{data['info'].latestPreReleaseVersion}} ({{data['info'].preReleaseDate}}). View it on <a href="https://github.com/digitalfondue/lavagna/releases/tag/lavagna-{{data['info'].latestPreReleaseVersion}}">github</a>.</p>
-  	      <p><a href="https://github.com/digitalfondue/lavagna/releases/download/lavagna-{{data['info'].latestPreReleaseVersion}}/lavagna-{{data['info'].latestPreReleaseVersion}}-distribution.zip">Download zip of Lavagna {{data['info'].latestPreReleaseVersion}}</a></p>
+  	      <p><a href="https://github.com/digitalfondue/lavagna/releases/download/lavagna-{{data['info'].latestPreReleaseVersion}}/lavagna-{{data['info'].latestPreReleaseVersion}}-distribution.zip">Download zip of Lavagna {{data['info'].latestPreReleaseVersion}}</a></p>-->
 	    </div>
     
 {% endblock %}

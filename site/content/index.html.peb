@@ -69,6 +69,7 @@
 	          <p>Multiple login providers: Google, Twitter, Github, LDAP, Gitlab (also on premises!), or add your own OAuth provider.</p>
             <p>Fine grained access control: different projects, different roles.</p>
             <p>Power search: metadata and full-text search are available.</p>
+            <p>Integrations: you can add your own scripts that react on system events.</p>
             <p>Don't fear migration: import your boards and cards from Trello.</p>
             <p>Open source: nobody likes bad surprises. With Lavagna, you can always see what's going on behind the scene.</p>
 	      	</div>
