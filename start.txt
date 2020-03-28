@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-LAVAGNA_VERSION="1.1.4"
+LAVAGNA_VERSION="1.1.5"
 
 
 # fetching lavagna
